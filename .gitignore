@@ -1,0 +1,23 @@
+# Environment & secrets — NEVER commit the API key
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# FAISS index files (large binary, regenerated at runtime)
+*.faiss
+*.index
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
