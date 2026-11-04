@@ -337,4 +337,5 @@ if __name__ == "__main__":
                   f"{c['source']} | \"{preview}...\"")
     else:
         print("[TEST] No chunks were produced. "
-              "Check that the PDF contains selectable text (not scanned images).")
+             "Check that the PDF contains selectable text (not scanned images).")
+
